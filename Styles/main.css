@@ -1,0 +1,126 @@
+header {
+    text-align: center;
+}
+
+/* Estilos para la navegacion*/
+
+.nav {
+    font-family: serif;
+    background-color: #1515156e;
+    padding: 5px;
+    margin-bottom: 1em;
+}
+
+.nav_title {
+    color: #ffffff;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav_ul {
+    list-style: none;
+    margin-left: 20vw;
+}
+
+.nav_li {
+    float: right;
+    padding: 0 2px;
+}
+
+.nav_li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+.nav_li a:hover {
+    color: #ff8000;
+}
+
+.nav_title:hover {
+    color: #81f781;
+}
+
+/*CLASE HERO*/
+
+.hero {
+    background: black url(../Images/sackcloth.webp) center / cover;
+}
+
+@media(max-width: 1024px) {
+    .hero {
+        background: black url(../Images/sackcloth.webp) center / cover;
+    }
+}
+
+@media(max-width: 768px) {
+    .hero {
+        background: black url(../Images/sackcloth.webp) center /cover;
+    }
+}
+
+/*BARRA SOCIAL*/
+
+.social-bar {
+    position: fixed;
+    right: 1%;
+    top: 40%;
+    z-index: 2000;
+}
+
+.icon {
+    margin: 10px;
+    color: white;
+    font-size: 2em;
+}
+.icon:hover {
+    font-size: 2.5em;
+}
+/*CARRUCEL*/
+
+.cont-carousel {
+    width: 200px;
+    border: 5px solid black;
+}
+
+.cont-carousel img {
+    width: 200px;
+    border: 5px solid black;
+}
+
+/*FOOTER*/
+
+footer {
+    margin: 0;
+    text-align: center;
+    background-color: #1515156e;
+}
+
+footer a {
+    color: burlywood;
+}
+
+footer a:hover {
+    color: white;
+    font-size: 1.2em;
+}
+
+.column {
+    padding: 5%;
+    width: auto;
+}
+
+.carousel {
+    text-align: center;
+    overflow: hidden;
+}
+
+.carousel img {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.actividades {
+    margin-left: 4%;
+}
