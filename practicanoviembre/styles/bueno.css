@@ -2,13 +2,78 @@
     font-size: 1em;
 }
 
+section {
+    height: 40%;
+}
+
+h2, p {
+    color: #4a515b;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
 img {
     width: 100%;
+}
+
+button {
+    margin-bottom: 5%;
+    padding: 2%;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#imb {
+    background-color: #d75852;
+}
+
+.color_ti1, #tag1 {
+    color: #d75852;
+}
+
+#Talento {
+    background-color: #dfa70f;
+}
+
+.color_ti2, #tag2 {
+    color: #dfa70f;
+}
+
+#pol {
+    background-color: #2b579a;
+}
+
+.color_ti3, #tag3 {
+    color: #2b579a;
+}
+
+#tur {
+    background-color: #d75852;
+}
+
+.color_ti4, #tag4 {
+    color: #d75852;
+}
+
+.tag {
+    float: right;
 }
 
 .contenedor {
     padding: 1%;
     margin: 0;
     width: 22%;
+    height: 100%;
     float: left;
+    border-left: 1px solid #e6e6e6;
+}
+
+.time {
+    float: right;
 }
