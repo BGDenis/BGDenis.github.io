@@ -6,7 +6,8 @@ section {
     height: 40%;
 }
 
-h2, p {
+h2,
+p {
     color: #4a515b;
 }
 
@@ -33,7 +34,8 @@ button {
     background-color: #d75852;
 }
 
-.color_ti1, #tag1 {
+.color_ti1,
+#tag1 {
     color: #d75852;
 }
 
@@ -41,7 +43,8 @@ button {
     background-color: #dfa70f;
 }
 
-.color_ti2, #tag2 {
+.color_ti2,
+#tag2 {
     color: #dfa70f;
 }
 
@@ -49,7 +52,8 @@ button {
     background-color: #2b579a;
 }
 
-.color_ti3, #tag3 {
+.color_ti3,
+#tag3 {
     color: #2b579a;
 }
 
@@ -57,7 +61,8 @@ button {
     background-color: #d75852;
 }
 
-.color_ti4, #tag4 {
+.color_ti4,
+#tag4 {
     color: #d75852;
 }
 
@@ -76,4 +81,12 @@ button {
 
 .time {
     float: right;
+}
+
+#fech {
+    color: #dfa70f;
+    font-size: 1.2em;
+    padding: 2%;
+    float: right;
+    text-align: center;
 }

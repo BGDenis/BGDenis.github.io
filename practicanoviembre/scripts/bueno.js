@@ -1,6 +1,6 @@
 window.onload = () => {
 
-
+    let t = 0;
 
     document.getElementById("tag1").addEventListener("click", function () {
         let getTime = document.getElementById("time1");
@@ -34,9 +34,18 @@ window.onload = () => {
             getTime.innerHTML = "► Lectura de 3 min";
         }
     });
-
     document.getElementById("Talento").addEventListener("click", function () {
         let fecha = new Date();
-        document.getElementById("fech").innerHTML = fecha.getFullYear() + "/" + (fecha.getMonth()+1) + "/" +fecha.getDate();
+        let meses_letra = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+        let aux = fecha.getDate() + "/" + meses_letra[fecha.getMonth()] + "/" +
+            fecha.getFullYear() + "<br> Hora Local <br>";
+        aux += fecha.getHours() + ":" + fecha.getMinutes();
+        document.getElementById("fech").innerHTML = aux;
+        if (t == 0) {
+            t = 1;
+        } else {
+            document.getElementById("fech").innerHTML = "";
+            t = 0;
+        }
     });
 }
