@@ -1,0 +1,14 @@
+* {
+    font-size: 1em;
+}
+
+img {
+    width: 100%;
+}
+
+.contenedor {
+    padding: 1%;
+    margin: 0;
+    width: 22%;
+    float: left;
+}
